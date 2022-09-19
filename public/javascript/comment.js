@@ -27,3 +27,9 @@ async function commentFormHandler(event) {
 }
 
 document.querySelector('.comment-form').addEventListener('submit', commentFormHandler);
+document.getElementById("deleteBtn").addEventListener('click', deleteComment); 
+
+
+function deleteComment(event) {
+
+}
